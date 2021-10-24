@@ -884,8 +884,7 @@ input[type=checkbox]:checked:before {
 
 .button-sub-ques{
     margin-top: 30px;
-    position: relative;
-    left: 39%;
+    text-align: center;
 }
 
 .button-sub-ques>button{
