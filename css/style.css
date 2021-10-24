@@ -608,10 +608,6 @@ input[type=checkbox]:checked:before {
     z-index: -1;
 }
 
-.object1{
-
-}
-
 .objects3{
     display: flex;
     flex-direction: row;
