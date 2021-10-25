@@ -835,6 +835,7 @@ input[type=checkbox]:checked:before {
 
 #Name-question, #Photo-question{
     background-color: #181818;
+    padding-bottom: 10px;
 }
 
 .input-first-question>input[type="text"]::-webkit-input-placeholder {
