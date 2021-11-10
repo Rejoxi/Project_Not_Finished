@@ -29,7 +29,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 17px;
-    width: 1440px;
+    max-width: 1440px;
     margin: 0 auto;
 }
 
@@ -317,7 +317,6 @@ body{
 .bottoms-online{
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -953,4 +952,314 @@ input[type=checkbox]:checked:before {
     position: relative;
     background-color: black;
     height: 166px;
+}
+
+@media all and (max-width: 375px){
+    .header-width{
+        padding-top: 25px;
+        max-width: 340px;
+    }
+    
+    .text-img{
+        min-height: 470px;
+        max-width: 375px;
+    }
+
+    .main-left{
+        position: relative;
+        top: 60px;
+        align-items: unset;
+        padding: 0 15px;
+    }
+
+    .text-main{
+        line-height: 132.83%;
+        font-size: 23px;
+    }
+
+    .text-main2{
+        font-size: 14px;
+        line-height: 135.84%;
+        margin-bottom: 30px;
+    }
+
+    .text-in-main{
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .two-button-main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .first-button-main{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .completed{
+        max-width: 375px;
+        padding-top: 1px;
+        padding-bottom: 150px;
+    }
+    
+    .completed-width{
+        display: block;
+        max-width: 340px;
+    }
+
+    .txt-compl{
+        font-size: 22px;
+        line-height: 138.6%;
+        text-align: center;
+    }
+
+    .under-txt{
+        font-size: 10px;
+        line-height: 158.48%;
+        text-align: center;
+    }
+
+    .city{
+        margin-right: 78px;
+    }
+
+    .city-apartment{
+        margin-right: 0;
+    }
+
+    .box-top{
+        font-size: 14px;
+        line-height: 138.6%;
+    }
+
+    .box-bottom{
+        font-size: 11px;
+        line-height: 18px;
+    }
+
+    .repair-t{
+        margin-right: 58px;
+        margin-left: 25px;
+    }
+
+    .point-img{
+        display: none;
+    }
+
+    .text-center{
+        display: none;
+    }
+    
+    .text-right>button{
+        display: none;
+    }
+
+    .text-right>a{
+        text-align: center;
+    }
+
+    .header-number{
+        margin-right: 0;
+    }
+
+    .right-completed{
+        display: none;
+    }
+
+    .imagesType{
+        flex-direction: column;
+    }
+
+    .conteiner-width{
+        margin-top: -110px;
+        max-width: 375px;
+        background-color: black;
+    }
+
+    .bottom-text{
+        font-size: 10px;
+        line-height: 169.8%;
+        color: white;
+        padding: 0 5px;
+        margin-top: 20px;
+    }
+
+    .video{
+        width: 340px;
+        height: 207px;
+    }
+
+    .bottoms-online{
+        flex-direction: column;
+        width: 340px;
+    }
+
+    .input-name, .input-phone{
+        font-size: 13px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    input[type="text"]{
+        background-color: black;
+        font-size: 14px;
+        line-height: 138.72%;
+        color: #FFFFFF;
+    }
+
+    .submit{
+        padding: 15px 140px;
+    }
+
+    label{
+        color: white;
+    }
+
+    .buttom-submit{
+        margin-top: 35px;
+    }
+
+    .checkbox-agree {
+        margin-top: -132px;
+        width: 340px;
+        margin-bottom: 58px;
+    }
+
+    .types{
+        margin-top: 50px;
+    }
+
+    .pause{
+        height: 37px;
+        width: 37px;
+        top: 145px;
+    }
+
+    .textonimgwhite{
+        margin-top: -400px;
+        margin-left: 15px;
+        padding: 20px 55px 20px 0;
+    }
+
+    .typefirst{
+        height: 365px;
+        width: 340px;
+        margin-right: 0;
+        margin-bottom: 200px;
+    }
+
+    .typesecond{
+        height: 365px;
+        width: 340px;
+        margin-right: 0;
+        margin-bottom: 200px;
+    }
+
+    .typethird{
+        height: 365px;
+        width: 340px;
+        margin-right: 0;
+        margin-bottom: 200px;
+    }
+
+    .benefits{
+        display: none;
+    }
+
+    .saves{
+        display: none;
+    }
+
+    .objects3{
+        display: none;
+    }
+
+    .pig-img{
+        display: none;
+    }
+    
+    .realize{
+        display: none;
+    }
+
+    .Clients{
+        display: none;
+    }
+
+    .question{
+        margin-top: -300px;
+        height: 500px;
+        max-width: 375px;
+        background-color: black;
+    }
+
+    #Name-question, #Photo-question{
+        background-color: black;
+    }
+
+    .inputs-question{
+        flex-direction: column;
+        justify-content: none;
+        margin-bottom: 0;
+        margin: 0 30px;
+    }
+
+    .input-first-question{
+        margin-left: 0;
+    }
+
+    .input-third-question{
+       transform: none;
+       width: 315px;
+       margin: 0 30px;
+    }
+
+    .under-input3{
+        width: 315px;
+        margin-bottom: 15px;
+    }
+
+    .checkbox-agree-question{
+        text-align: left;
+        margin: 0 30px;
+        margin-bottom: 30px;
+    }
+    
+    .button-sub-ques>button{
+        padding: 15px 130px;
+    }
+
+    .with-map{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: black;
+        background-image: none;
+        max-width: 375px;
+    }
+
+    .map{
+        position: relative;
+        bottom: 115px;
+    }
+
+    .map>iframe{
+        height: 367px;
+        width: 340px;
+    }
+
+    .adrimg{
+        transform: translateY(-70px);
+    }
+
+    .mailimg, .mailinst{
+        width: 39px;
+        height: 39px;
+    }
+
+    .footer-main{
+        display: none;
+    }
 }
